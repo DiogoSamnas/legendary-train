@@ -1,0 +1,19 @@
+{
+  "name": "legendary-train",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DiogoSamnas/legendary-train.git",
+  "author": "DiogoSamnas <diogo.sam.nascimento@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.15",
+    "puppeteer": "^5.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
